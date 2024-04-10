@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppAutoFin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_frag_2">Fragment 2</string>
+    <string name="text_frag_3">Fragment 3</string>
+    <string name="text_frag_4">Fragment 4</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="google_map_api_key">AIzaSyAYHXrBUD8n5gXFkYadJI-U1BpWFffJUtY</string>
+    <string name="text_view_bank_name">Nombre de Banco</string>
+    <string name="text_view_antiquity">Antiguedad de banco</string>
+    <string name="text_view_description">Descripción de banco</string>
+    <string name="hint_textv_banks_filter">Buscar Banco</string>
+</resources>

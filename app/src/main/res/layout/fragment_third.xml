@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentThird">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayFragment3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lenearLayMainMenu"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textVTituloPagina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Visor PDF"
+            android:textColor="@color/autfn_silver_2"
+            android:textSize="30dp" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonSelectPdf"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_round_btn"
+            android:backgroundTint="@color/autfn_silver_1"
+            android:elevation="5dp"
+            android:src="@drawable/ic_add_black_24"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:tint="@color/autfn_navy_blue_1"
+            />
+
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
